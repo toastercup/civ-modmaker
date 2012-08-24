@@ -1,7 +1,24 @@
 civ-modmaker
 ===========
 
-# License
+## Description
+This web application provides a management frontend for building Civilization 4/5 mods. It will output standard XML for use in compiling Civilization mods.
+
+## Usage
+This is a Flask web app. Please set 'SECRET_KEY' in 'app_config.py'. Run 'main.py' within its directory, or use gunicorn, uWSGI or similar.
+Once it has launched for the first time and created the database, visit http://localhost:5000/admin
+
+## Dependencies
+Depends on Flask: http://flask.pocoo.org/
+
+Depends on Flask-Admin: http://pypi.python.org/pypi/Flask-Admin
+
+Depends on Flask-SQLAlchemy: http://packages.python.org/Flask-SQLAlchemy/
+
+## Screenshot
+![Creation Interface](http://wasteland.steelw.com/images/7/78/Admin_interface.png "Creation Interface")
+
+## License
 > Software License Agreement (BSD License)
 >
 > Copyright (c) 2012, Toastercup
@@ -29,16 +46,3 @@ civ-modmaker
 > ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 > (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 > SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-## Description
-This web application provides a management frontend for building Civilization 4/5 mods. It will output standard XML for use in compiling Civilization mods.
-
-## Usage
-This is a Flask web app. Please set 'SECRET_KEY' in 'app_config.py'. Run 'main.py' within its directory, or use gunicorn, uWSGI or similar.
-
-## Dependencies
-Depends on Flask: http://flask.pocoo.org/
-
-Depends on Flask-Admin: http://pypi.python.org/pypi/Flask-Admin
-
-Depends on Flask-SQLAlchemy: http://packages.python.org/Flask-SQLAlchemy/
