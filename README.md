@@ -6,6 +6,7 @@ This web application provides a management frontend for building Civilization 4/
 
 ## Usage
 This is a Flask web app. Please set 'SECRET_KEY' in 'app_config.py'. Run 'main.py' within its directory, or use gunicorn, uWSGI or similar.
+
 Once it has launched for the first time and created the database, visit http://localhost:5000/admin
 
 ## Dependencies
